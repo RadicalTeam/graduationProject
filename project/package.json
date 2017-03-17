@@ -1,0 +1,38 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "wechat",
+    "enterprise"
+  ],
+  "dependencies": {
+    "ejs": ">=1.0.0",
+    "express": "^4.14.1",
+    "jquery": "^3.1.1",
+    "node-echarts": "^1.0.7",
+    "phantom": "^4.0.0",
+    "wechat-crypto": "0.0.2",
+    "wechat-enterprise": "^0.0.9",
+    "wechat-enterprise-api": "*",
+    "xml2js": "0.4.4"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "mocha": "*",
+    "expect.js": "*",
+    "connect": "2.5.*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "muk": "*",
+    "rewire": "*",
+    "istanbul": "*"
+  },
+  "author": "pluo",
+  "license": "ISC"
+}
